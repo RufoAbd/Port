@@ -17,7 +17,7 @@ export default function About({ dark, t }) {
         <div className="grid md:grid-cols-2 gap-16 md:gap-24 items-start">
           <motion.div variants={fadeUp} initial="hidden" animate={inView ? 'visible' : 'hidden'} transition={{ duration: 0.8, delay: 0.1 }} className="relative">
             <div className="card-img aspect-[3/4]">
-              <img src="/PHOTO-2026-06-24-22-35-18.jpg" alt="Leman Hüseynli" className="w-full h-full object-cover" loading="lazy" />
+              <img src="PHOTO-2026-06-24-22-35-18.jpg" alt="Leman Hüseynli" className="w-full h-full object-cover" loading="lazy" />
             </div>
             <div className={`absolute -bottom-4 -right-4 w-1/2 h-1/3 border ${dark ? 'border-gold/20' : 'border-gold/40'} -z-10`} />
             <div className="absolute -top-6 -left-6 z-10">
